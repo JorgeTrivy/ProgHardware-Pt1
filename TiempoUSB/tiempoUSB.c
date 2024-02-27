@@ -67,7 +67,7 @@ static struct usb_driver my_usb_driver = {
 static int __init my_usb_init(void)
 {
     int ret;
-    printk(KERN_INFO "aaaaaaaaaaaaaaaaaa %lld", ret);
+
     // Registro del USB
     ret = usb_register(&my_usb_driver);
     
